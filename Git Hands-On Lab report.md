@@ -19,8 +19,6 @@ Before using Git, I first created the project files locally using Visual Studio 
 
 I opened VS Code and created a new folder named `simple-form`. Inside this folder, I created two files: `form.html` and `style.css`.
 
-![alt text](<git screenshot/form html.png>)
-
 In `form.html`, I created a basic HTML form that collects the user’s name, email address, and message.  
 In `style.css`, I added basic styling such as font styles, spacing, and layout to improve the appearance of the form.
 
@@ -32,7 +30,6 @@ I logged into my GitHub account, clicked on “New Repository”, named the repo
 
 This repository was later connected to my local project folder
 
-![alt text](<git screenshot/new  simple form repo.png>)
 
 
 ## Step 1: Clone the GitHub Repository
@@ -45,7 +42,8 @@ git clone https://github.com/essence-git/simple-form.git
 cd simple-form
 git status
 ```
- ![alt text](<git screenshot/screenshot 1.png>)
+
+![Screenshot 1](git-screenshots/screenshot-01.png)
 
 ## Step 2: Add the HTML and CSS Files
 
@@ -154,7 +152,7 @@ git add form.html
 git commit -m "Added CAPTCHA feature"
 ```
 
-![alt text](<git screenshot/Screenshot 11.png>)
+![alt text](git screenshot/Screenshot 11.png)
 
 ## Step 11: Merge CAPTCHA Feature into Main
 
@@ -166,7 +164,7 @@ git merge feature-add-captcha
 git push origin main
 ```
 
-![alt text](<git screenshot/Screenshot 12.png>)
+![screen](git screenshot/Screenshot 12.png>)
 ## Step 12: Undo Unwanted Local Changes
 
 I discarded unwanted local changes made to `style.css` before committing.
@@ -176,7 +174,7 @@ git checkout -- style.css
 git status
 ```
 
-![alt text](<git screenshot/Screenshot 13.png>)
+![alt text](git screenshot/Screenshot 13.png)
 
 ## Conclusion
 

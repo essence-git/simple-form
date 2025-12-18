@@ -35,7 +35,6 @@ I saved both files to ensure they were ready to be tracked using Git.
 
 I also created an empty GitHub repository named `simple-form` without adding a README or `.gitignore` file.
 
-📸 **Screenshot Placeholder:**  
 ![github repo](git-screenshot/newsimpleormrepo.png)
 
 
@@ -48,7 +47,7 @@ git clone https://github.com/yourusername/simple-form.git
 cd simple-form
 ```
 
-📸 **Screenshot Placeholder:**  
+ 
 ![Step 1 Screenshot](git-screenshot/screenshot1.png)
 
 ---
